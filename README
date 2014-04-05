@@ -1,0 +1,15 @@
+A fast NxM sudoku solver
+
+It is invoked using
+./sudokuSolver <sudoku>
+
+An unknown number is represented by a symbol out of the 1-9
+range but it is recommended to use either dots or zeros.
+
+Thanks to Timon Gehr for his idea of representing possibilities using 
+bits and thanks to bearophile for cleaning up my code and supplying 
+several idea's including the maxArray inlined range to increase 
+performance.
+
+Example:
+./sudokuSolver 4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......
